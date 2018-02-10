@@ -20,7 +20,9 @@
     <%= form.label :decription %>
     <%= form.text_area :decription, id: :article_decription %>
   </div>
-
+<div>
+  <%= form.file_field :picture, id: :article_picture %>
+</div>
   <div class="actions">
     <%= form.submit %>
   </div>
